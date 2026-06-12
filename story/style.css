@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing;
+}
+
+body {
+    background: #fff7fa;
+    font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .hero h1 {
+        font-size: 5rem;
+        color: #ff5c8a;
+        font-family: 'Sacramento',cursive;
+    }
+
+    .hero p {
+        margin-top: 15px;
+    }
+
+#startBtn,
+#nextBtn,
+#noteBtn {
+    margin-top: 25px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #ff7ba3;
+    color: white;
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#storyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.progress {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.memory-card {
+    background: white;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    animation: slideIn .7s ease;
+}
+
+    .memory-card img {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .memory-card video {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+.memory-title {
+    margin-top: 15px;
+    font-size: 2rem;
+    color: #ff5c8a;
+    font-family: 'Sacramento',cursive;
+}
+
+.note {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background: #fff0f5;
+    color: #555;
+}
+
+@keyframes slideIn {
+
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

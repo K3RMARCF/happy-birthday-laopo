@@ -1,0 +1,144 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    ``` min-height:100vh;
+    background: #fff7fa;
+    font-family: Poppins,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ```
+}
+
+.container {
+    ``` width:90%;
+    max-width: 900px;
+    text-align: center;
+    ```
+}
+
+.cards {
+    ``` display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    margin-top: 40px;
+    ```
+}
+
+.card {
+    position: relative;
+    background: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1);
+    transition: .3s;
+}
+
+.card {
+    transform: translateY(-5px);
+}
+
+    .card.selected {
+        background: #ff7ba3;
+        color: white;
+        transform: scale(1.05);
+        border: 4px solid white;
+        box-shadow: 0 0 25px rgba(255,123,163,.7);
+    }
+
+        .card.selected::after {
+            content: "✓";
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+        }
+
+#submitBtn {
+    ``` margin-top:40px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: #ff7ba3;
+    color: white;
+    cursor: pointer;
+    ```
+}
+
+.success-page {
+    ``` min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 135deg, #ffd6e7, #fff5f7 );
+    ```
+}
+
+.success-card {
+    ``` background:white;
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    max-width: 500px;
+    ```
+}
+
+.heart {
+    ``` font-size:4rem;
+    animation: pulse 1.5s infinite;
+    ```
+}
+
+.success-card h1 {
+    ``` margin-top:20px;
+    color: #ff5c8a;
+    ```
+}
+
+.success-card p {
+    ``` margin-top:15px;
+    color: #666;
+    ```
+}
+
+.small-text {
+    ``` font-style:italic;
+    ```
+}
+
+.continue-btn {
+    ``` margin-top:30px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: #ff7ba3;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    ```
+}
+
+@keyframes pulse {
+
+    ``` 0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+    ```
+}
