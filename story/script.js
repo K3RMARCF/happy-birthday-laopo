@@ -53,7 +53,7 @@
         type: "image",
         title: "Ice Cream Date",
         src: "../assets/photos/Socute.jpg",
-        note: "We eat this together before CNY bah, where u wear the shirt i buy for u that day for the 4cute, wah see u here like really damn pretty :> "
+        note: "We eat this together before CNY bah, where u wear the shirt i buy for u that day for the 4cut, wah see u here like really damn pretty :> "
     },
 
     {
