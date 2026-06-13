@@ -2,24 +2,74 @@
 
     {
         type: "image",
-        title: "First Meeting ❤️",
+        title: "Date Night🌸",
         src: "../assets/photos/FirstDate.jpg",
-        note: "This was the day our story began."
-    },
-
-    {
-        type: "video",
-        title: "Our First Reel 🎥",
-        src: "../assets/video/LOL.mp4",
-        note: "I still watch this whenever I miss you."
+        note: "I can still remember we outside of the cinema going to watch movie then we take this photo send to my sister."
     },
 
     {
         type: "image",
-        title: "First Date 🌸",
-        src: "../assets/photos/first_date.jpg",
-        note: "I was honestly more nervous than I looked."
+        title: "First 4cut taken together ❤️",
+        src: "../assets/photos/FirstPol.jpg",
+        note: "Before i go back to sg we go and take, it means so much to me, in bmt i whenever i miss u ill have a look, when i went to the jungle i put inside my left chest pocket to make it feel like ur with me :>."
+    },
+
+    {
+        type: "image",
+        title: "When you came for my POP ❤️",
+        src: "../assets/photos/Reunite.jpg",
+        note: "I really really missed you so much, still can remember when i saw u, the tears just rushed out and when i hug you it felt like the only place i wanted to be in."
+    },
+
+    {
+        type: "image",
+        title: "RIDE BACK !!!",
+        src: "../assets/photos/RideBack.jpg",
+        note: "Hahahaha it was so hectic that day trying to rush accross the checkpoint to make it for our flight, end up we didn't and i probably didn't leave a good taste for ur mum but its such good memories."
+    },
+
+    {
+        type: "video",
+        title: "Our First Tiktok 🎥",
+        src: "../assets/video/LOL.mp4",
+        note: "Hahah so funny, i remember you suddenly ask me do tiktok then show me the dance, then we both so awkward trying outside of camp forest then we screw up so many times hahah "
+    },
+
+    {
+        type: "image",
+        title: "Movie Night",
+        src: "../assets/photos/Movie.jpg",
+        note: "One of the photos we took, i think its in NU sentral?"
+    },
+
+    {
+        type: "video",
+        title: "Our Theme Park Date ",
+        src: "../assets/video/vlog.mp4",
+        note: "When we went to berjaya times square and u wanted to try vlogging with me, hahaha so cute here "
+    },
+
+    {
+        type: "image",
+        title: "Ice Cream Date",
+        src: "../assets/photos/Socute.jpg",
+        note: "We eat this together before CNY bah, where u wear the shirt i buy for u that day for the 4cute, wah see u here like really damn pretty :> "
+    },
+
+    {
+        type: "image",
+        title: "Family PHOTO ",
+        src: "../assets/photos/FamilyPhoto.png",
+        note: "Take photo with our whole family, u pick the shirt out for me and i pick for u de hehe, also got wou wou hihi, we just missing chou chou :< hehe "
+    },
+
+    {
+        type: "image",
+        title: "Photoshoot Time",
+        src: "../assets/photos/photoshoot.jpg",
+        note: "U saw my uniform and think very nice, then you arranged a photoshoot timing for us, wah still remember that day the rain so bad but thank you laopo. I had fun doing this photoshoot with you :)"
     }
+    
 
 ];
 
