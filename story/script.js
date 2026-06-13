@@ -38,7 +38,7 @@
     {
         type: "image",
         title: "Movie Night",
-        src: "../assets/photos/Movie.jpg",
+        src: "../assets/photos/movie.jpg",
         note: "One of the photos we took, i think its in NU sentral?"
     },
 
